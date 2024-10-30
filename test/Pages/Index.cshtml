@@ -1,0 +1,51 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Welcome to MyApp!";
+}
+
+<div class="container text-center mt-5">
+    <!-- Header -->
+    <h1 class="display-4 font-weight-bold mb-4">Welcome to MyApp!</h1>
+    <p class="lead">Your one-stop solution to [describe your app briefly, e.g., "manage your tasks effortlessly"].</p>
+
+    <!-- Feature Section -->
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-8">
+            <p>
+                Discover the features of our platform designed to make your experience seamless and intuitive.
+                <br />
+                <a href="https://learn.microsoft.com/aspnet/core" target="_blank">Learn more about building with ASP.NET Core.</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Call to Action Buttons -->
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-4">
+            <a href="/Account/Login" class="btn btn-primary btn-lg btn-block">Sign In</a>
+        </div>
+        <div class="col-md-4">
+            <a href="/Account/Register" class="btn btn-secondary btn-lg btn-block">Register</a>
+        </div>
+    </div>
+</div>
+
+<!-- Styling for background and button colors -->
+<style>
+    body {
+        background-color: #f4f8fb;
+        color: #333;
+    }
+    h1.display-4 {
+        color: #2c3e50;
+    }
+    .btn-primary {
+        background-color: #3498db;
+        border: none;
+    }
+    .btn-secondary {
+        background-color: #95a5a6;
+        border: none;
+    }
+</style>
